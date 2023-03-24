@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        .header{
+            width: 100%;
+            height: 80vh;
+            background: rgba(217, 217, 217, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .titre h2{
+            text-align: center;
+           font-size: 50px;
+        }
+        .input{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .input input {
+            width: 240px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            margin: 10px;
+            margin-left: 17px;
+        }
+        .input2{
+            margin-left: 0px;
+            position: relative;
+        }
+        .input3{
+            margin-left: 32px;
+            position: relative;
+        }
+        .input4{
+            margin-left: 0px;
+            position: relative;
+        }
+        .input5{
+            margin-left: 32px;
+            position: relative;
+        }
+        button{
+            
+            background-color:  rgba(38, 158, 101, 1);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            margin: 10px;
+            width: 230px;
+            height: 30px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            }
+            .bas{
+            text-align: center;
+            font-size: 20px;
+ 
+        }
+        a{
+            color: rgba(38, 158, 101, 1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container-header">
+            <div class="titre">
+                <h2>Créer votre compte</h2>
+            </div>
+            <div class="input">
+                <div class="input1">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom"> <br>
+                </div>
+                <div class="input2">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom"> <br>
+                </div>
+                <div class="input3">
+                    <label for="email">Email :</label>
+                    <input type="password" id="email"> <br>
+                </div>
+                <div class="input4">
+                    <label for="mot de passe">Mot de passe :</label>
+                    <input type="password" id="mot de passe"> <br>
+                </div>
+
+                <div class="input5"> 
+                    <label class="labal" for="confirmer">Confirmer votre mot de passe :</label>
+                    <input type="password" id="confirmer">
+                </div>
+                <br>
+                <div class="boutton">
+                    <a href="bienvenu.html"><button type="submit">S'enregistrer</button></a>
+                </div>
+            </div>
+            </div>
+            
+
+        </div>
+        <div class="bas">
+            <h5 class="compte">Vous avez déjà un compte?
+                <a href="connect.html">Connectez-vous!.</a></h5>
+        </div>
+</body>
+</html>

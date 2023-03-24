@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            width: 100%;
+            height: 80vh;
+            background: rgba(217, 217, 217, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .titre h2{
+            text-align: center;
+           font-size: 50px;
+           height: 20vh;
+        }
+        .input{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .input input{
+            width: 240px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            margin: 10px;
+        }
+
+        .input2{
+            margin-left: 50px;
+            position: relative;
+        }
+
+        
+
+        
+        .bas{
+            text-align: center;
+            font-size: 20px;
+
+        }
+        a{
+            color: rgba(38, 158, 101, 1);
+        }
+        button{
+            
+           background-color:  rgba(38, 158, 101, 1);
+           color: black;
+           border-radius: 10px;
+           border: none;
+           margin: 10px;
+           width: 230px;
+           height: 30px;
+           text-align: center;
+           font-size: 15px;
+           font-weight: bold;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container-header">
+            <div class="titre">
+                <h2>Connexion</h2>
+            </div>
+            <div class="input">
+                <div class="input1">
+                    <label for="pass">Mot de passe :</label>
+                    <input type="password" id="pass"> <br>
+                </div>
+                <div class="input2"> 
+                    <label class="labal" for="mail">Email :</label>
+                    <input type="email" id="mail">
+                </div>
+                <br>
+                <div class="boutton">
+                    <a href="bienvenu.html"><button type="submit">Se connecter</button></a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="bas">
+            <h5 class="compte">Vous avez pas de compte?
+                <a href="create.html">Inscrivez-vous.</a></h5>
+        </div>
+    </div>
+</body>
+</html>
